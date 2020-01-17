@@ -1,0 +1,12 @@
+[package]
+name = "simple_http_server"
+version = "0.1.0"
+authors = ["Shabanov Anton <snakesolid@ngs.ru>"]
+edition = "2018"
+
+[dependencies]
+env_logger = "0.7"
+iron = "0.6"
+log = "0.4"
+staticfile = "0.5"
+structopt = "0.3"
